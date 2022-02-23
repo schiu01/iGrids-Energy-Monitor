@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+                GeometryReader { g in
+                    TabView {
+                        HomeView().tabItem {
+                            Text("Home")
+                            .font(Font.custom("fa-solid-900", size: 20))
+                            .foregroundColor(Color.white)
+                            Image(systemName: "house.fill")
+                            
+                        }
+                        .frame(width: g.size.width, height: g.size.height-70,alignment: .topLeading)
+                        .font(Font.title.bold())
+                        .statusBar(hidden: false)
+                        .preferredColorScheme(.dark)
+                    
+                    
+                }
+                }
+
     }
 }
 
