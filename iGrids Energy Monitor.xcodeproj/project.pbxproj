@@ -16,6 +16,13 @@
 		824CFC4927C5110B00A6CF40 /* iGrids_Energy_MonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824CFC4827C5110B00A6CF40 /* iGrids_Energy_MonitorUITestsLaunchTests.swift */; };
 		8265224A27C5F84B005DCFCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265224927C5F84B005DCFCD /* HomeView.swift */; };
 		8265224C27C5F89B005DCFCD /* iGridsRetrieveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265224B27C5F89B005DCFCD /* iGridsRetrieveData.swift */; };
+		82969E0E27C9DEE600D24400 /* AddDeviceCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82969E0D27C9DEE600D24400 /* AddDeviceCode.swift */; };
+		82969E1027CB178C00D24400 /* RemoveDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82969E0F27CB178C00D24400 /* RemoveDevice.swift */; };
+		82969E1227CB362400D24400 /* ManageDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82969E1127CB362400D24400 /* ManageDevices.swift */; };
+		82969E1427CB3F8D00D24400 /* ShowDeviceReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82969E1327CB3F8D00D24400 /* ShowDeviceReading.swift */; };
+		82D1797C27C9BC5100E17791 /* energyMonitorModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82D1797A27C9BC5100E17791 /* energyMonitorModel.xcdatamodeld */; };
+		82D1797E27C9BE8F00E17791 /* iGridsCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1797D27C9BE8F00E17791 /* iGridsCoreData.swift */; };
+		82EB506427C7FD35006873A7 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB506327C7FD35006873A7 /* PopUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		8265224927C5F84B005DCFCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8265224B27C5F89B005DCFCD /* iGridsRetrieveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGridsRetrieveData.swift; sourceTree = "<group>"; };
 		8265224D27C5FEFC005DCFCD /* iGrids-Energy-Monitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iGrids-Energy-Monitor-Info.plist"; sourceTree = SOURCE_ROOT; };
+		82969E0D27C9DEE600D24400 /* AddDeviceCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceCode.swift; sourceTree = "<group>"; };
+		82969E0F27CB178C00D24400 /* RemoveDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDevice.swift; sourceTree = "<group>"; };
+		82969E1127CB362400D24400 /* ManageDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageDevices.swift; sourceTree = "<group>"; };
+		82969E1327CB3F8D00D24400 /* ShowDeviceReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDeviceReading.swift; sourceTree = "<group>"; };
+		82D1797B27C9BC5100E17791 /* energyMonitorModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = energyMonitorModel.xcdatamodel; sourceTree = "<group>"; };
+		82D1797D27C9BE8F00E17791 /* iGridsCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGridsCoreData.swift; sourceTree = "<group>"; };
+		82EB506327C7FD35006873A7 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,16 @@
 				824CFC2B27C5110600A6CF40 /* iGrids_Energy_MonitorApp.swift */,
 				824CFC2D27C5110600A6CF40 /* ContentView.swift */,
 				8265224927C5F84B005DCFCD /* HomeView.swift */,
+				82969E1327CB3F8D00D24400 /* ShowDeviceReading.swift */,
+				82D1797A27C9BC5100E17791 /* energyMonitorModel.xcdatamodeld */,
+				82969E1127CB362400D24400 /* ManageDevices.swift */,
+				82969E0F27CB178C00D24400 /* RemoveDevice.swift */,
+				82EB506327C7FD35006873A7 /* PopUpView.swift */,
 				824CFC2F27C5110B00A6CF40 /* Assets.xcassets */,
 				824CFC3127C5110B00A6CF40 /* Preview Content */,
 				8265224B27C5F89B005DCFCD /* iGridsRetrieveData.swift */,
+				82D1797D27C9BE8F00E17791 /* iGridsCoreData.swift */,
+				82969E0D27C9DEE600D24400 /* AddDeviceCode.swift */,
 			);
 			path = "iGrids Energy Monitor";
 			sourceTree = "<group>";
@@ -265,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82969E1427CB3F8D00D24400 /* ShowDeviceReading.swift in Sources */,
+				82D1797C27C9BC5100E17791 /* energyMonitorModel.xcdatamodeld in Sources */,
+				82EB506427C7FD35006873A7 /* PopUpView.swift in Sources */,
+				82969E1027CB178C00D24400 /* RemoveDevice.swift in Sources */,
 				8265224A27C5F84B005DCFCD /* HomeView.swift in Sources */,
+				82D1797E27C9BE8F00E17791 /* iGridsCoreData.swift in Sources */,
+				82969E1227CB362400D24400 /* ManageDevices.swift in Sources */,
 				8265224C27C5F89B005DCFCD /* iGridsRetrieveData.swift in Sources */,
+				82969E0E27C9DEE600D24400 /* AddDeviceCode.swift in Sources */,
 				824CFC2E27C5110600A6CF40 /* ContentView.swift in Sources */,
 				824CFC2C27C5110600A6CF40 /* iGrids_Energy_MonitorApp.swift in Sources */,
 			);
@@ -599,6 +627,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82D1797A27C9BC5100E17791 /* energyMonitorModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82D1797B27C9BC5100E17791 /* energyMonitorModel.xcdatamodel */,
+			);
+			currentVersion = 82D1797B27C9BC5100E17791 /* energyMonitorModel.xcdatamodel */;
+			path = energyMonitorModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 824CFC2027C5110600A6CF40 /* Project object */;
 }
